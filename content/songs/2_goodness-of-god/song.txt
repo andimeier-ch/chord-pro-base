@@ -2,7 +2,7 @@ Title: Goodness of God
 
 ----
 
-Text:
+Chordprocode:
 
 {title: Goodness Of God}
 {artist: Jenn Johnson, Ed Cash, Jason Ingram, Ben Fielding, Brian Johnson}
@@ -45,4 +45,4 @@ I will [Db2]sing of the [Eb(4)]goodness of [Ab]God
 
 ----
 
-Uuid: hxpnum1i7wrhf74o
+Uuid: 2slznqoqbbpyinju

@@ -1,0 +1,6 @@
+title: Songs
+
+sections:
+  pages:
+    type: pages
+    template: song

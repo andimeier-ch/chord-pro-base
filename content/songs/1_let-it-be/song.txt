@@ -1,8 +1,8 @@
-Title: Let it be
+Title: Let It Be
 
 ----
 
-ChordProCode:
+Chordprocode:
 
 {title: Let it be}
 {subtitle: ChordSheetJS example version}
@@ -14,4 +14,4 @@ Let it [Am]be, let it [C/G]be, let it [F]be, let it [C]be
 
 ----
 
-Uuid: sq1aszjfjpxvyw7w
+Uuid: n4srubpbrpwifp0e
