@@ -5,10 +5,6 @@ use AndiMeier\ChordPro\Models\ChordProSongPage;
 
 @include_once __DIR__ . '/vendor/autoload.php';
 
-// F::loadClasses([
-//     'AndiMeier\ChordPro\Models\ChordProSongPage' => 'src/Models/ChordProSongPage.php',
-// ], __DIR__);
-
 Kirby::plugin('andimeier-ch/chordpro', [
     'pageModels' => [
         'song' => ChordProSongPage::class,
