@@ -1,0 +1,12 @@
+parameters:
+    level: 9
+    paths:
+        - src
+
+    fileExtensions:
+        - php
+
+    reportUnmatchedIgnoredErrors: false
+
+    # Check for specific PHP version.
+    phpVersion: 80100 # PHP 8.1

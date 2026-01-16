@@ -1,0 +1,25 @@
+{
+  "name": "andimeier-ch/kirby-chordpro",
+  "description": "Kirby ChrodPro Plugin",
+  "license": "MIT",
+  "type": "kirby-plugin",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Andi Meier",
+      "email": "hallo@andimeier.ch"
+    }
+  ],
+  "require": {
+    "intelektron/chordpro-php": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChordPro\\": "src/",
+      "AndiMeier\\ChordPro\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}

@@ -1,0 +1,9 @@
+title: ChordPro Song
+
+sections:
+  fields:
+    type: fields
+    fields:
+      chordProCode:
+        type: textarea
+        size: huge

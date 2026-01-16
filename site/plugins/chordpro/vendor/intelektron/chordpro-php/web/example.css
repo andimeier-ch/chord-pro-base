@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica;
+}
+
+/* Metadata */
+
+.chordpro-section-label,
+.chordpro-metadata {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 0.5em 0;
+}
+.chordpro-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.chordpro-subtitle {
+    font-size: 1.5em;
+    font-weight: light;
+}
+.chordpro-key {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 5px 10px 0;
+    border: 2px solid #000;
+    border-radius: 4px;
+    width: auto;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+.chordpro-tab {
+    font-family: monospace;
+}
+
+/* Lines & Chorus */
+
+.chordpro-line {
+    height: 2.5em;
+}
+.chordpro-line-text-only, .chordpro-line-chords-only {
+    height: 1.5em;
+}
+.chordpro-chorus {
+    padding-left: 10px;
+    border-left: 4px solid #777;
+}
+.chordpro-block {
+    position: relative;
+    display: inline-block;
+}
+.chordpro-chord {
+    position: relative;
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.chordpro-text {
+    position: relative;
+    display: block;
+}
