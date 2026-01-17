@@ -9,4 +9,7 @@ Kirby::plugin('andimeier-ch/chordpro', [
     'pageModels' => [
         'song' => ChordProSongPage::class,
     ],
+    'fields' => [
+        'chordproeditor' => [],
+    ],
 ]);
