@@ -8,16 +8,8 @@ Kirby::plugin('andimeier-ch/api', [
             'message' => function () {
                 return 'world';
             },
-            'song' => function ($id) {
-                $song = kirby()->page('songs/' . $id);
-    
-                if (!$song) {
-                    return [
-                        'error' => 'Song not found',
-                    ];
-                }
-
-                return $song;
+            'song' => function ($uuid) {
+                return page('page://' . $uuid);
             },
             'songs' => function () {
                 return kirby()->site()->find('songs')->children();
@@ -29,6 +21,13 @@ Kirby::plugin('andimeier-ch/api', [
                 'method' => 'GET',
                 'action' => function () {
                     return $this->songs();
+                },
+            ],
+            [
+                'pattern' => 'song/(:any)/chordpro',
+                'method' => 'GET',
+                'action' => function ($id) {
+                    return $this->song($id)->chordProRaw();
                 },
             ],
             [

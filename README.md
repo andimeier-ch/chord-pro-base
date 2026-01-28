@@ -1,36 +1,60 @@
-<img src="http://getkirby.com/assets/images/github/plainkit.jpg" width="300">
+# ChordPro Base
 
-**Kirby: the CMS that adapts to any project, loved by developers and editors alike.**
-The Plainkit is a minimal Kirby setup with the basics you need to start a project from scratch. It is the ideal choice if you are already familiar with Kirby and want to start step-by-step.
+## API
 
-You can learn more about Kirby at [getkirby.com](https://getkirby.com).
+### Get the list of all Songs
 
-### Try Kirby for free
+```
+method: GET
+url: {{chord_pro_base_url}}/api/songs
+```
 
-You can try Kirby and the Plainkit on your local machine or on a test server as long as you need to make sure it is the right tool for your next project. … and when you’re convinced, [buy your license](https://getkirby.com/buy).
+Example response
 
-### Get going
+```json
+{
+    "code": 200,
+    "data": [
+        {
+            "id": "songs/let-it-be",
+            "num": 1,
+            "title": "Let It Be",
+            "url": "https://chord-pro-base.ddev.site/songs/let-it-be",
+            "uuid": "page://n4srubpbrpwifp0e"
+        },
+        {
+            "id": "songs/goodness-of-god",
+            "num": 2,
+            "title": "Goodness of God",
+            "url": "https://chord-pro-base.ddev.site/songs/goodness-of-god",
+            "uuid": "page://2slznqoqbbpyinju"
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "total": 2,
+        "offset": 0,
+        "limit": 100
+    },
+    "status": "ok",
+    "type": "collection"
+}
+```
 
-Read our guide on [how to get started with Kirby](https://getkirby.com/docs/guide/quickstart).
+### Get a specific Song
 
-You can [download the latest version](https://github.com/getkirby/plainkit/archive/main.zip) of the Plainkit.
-If you are familiar with Git, you can clone Kirby's Plainkit repository from Github.
+You can get a song in several formats.
 
-    git clone https://github.com/getkirby/plainkit.git
+```
+method: GET
+url: {{chord_pro_base_url}}/api/song/{{uuid}}/{{format}}
+```
 
-## What's Kirby?
+`uuid` without protocol (`page://`).
 
--   **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
--   **[Try it](https://getkirby.com/try)** – Take a test ride with our online demo. Or download one of our kits to get started.
--   **[Documentation](https://getkirby.com/docs/guide)** – Read the official guide, reference and cookbook recipes.
--   **[Issues](https://github.com/getkirby/kirby/issues)** – Report bugs and other problems.
--   **[Feedback](https://feedback.getkirby.com)** – You have an idea for Kirby? Share it.
--   **[Forum](https://forum.getkirby.com)** – Whenever you get stuck, don't hesitate to reach out for questions and support.
--   **[Discord](https://chat.getkirby.com)** – Hang out and meet the community.
--   **[Mastodon](https://mastodon.social/@getkirby)** – Spread the word.
--   **[Bluesky](https://bsky.app/profile/getkirby.com)** – Spread the word.
+`format` can be one of
 
----
-
-© 2009 Bastian Allgeier
-[getkirby.com](https://getkirby.com) · [License agreement](https://getkirby.com/license)
+- `chordpro`
+- `json`
+- `text` (json with btext only)
+- `html`
