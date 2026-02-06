@@ -1,7 +1,12 @@
 {
+  "name": "chordpro",
+  "description": "ChordPro handling in Kirby",
   "scripts": {
     "dev": "npx -y kirbyup src/index.js --watch",
     "serve": "npx -y kirbyup serve src/index.js",
     "build": "npx -y kirbyup src/index.js"
+  },
+  "dependencies": {
+    "@chordbook/editor": "^0.0.7"
   }
 }

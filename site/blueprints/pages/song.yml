@@ -5,7 +5,5 @@ sections:
     type: fields
     fields:
       chordProCode:
-        # type: textarea
-        # size: huge
         type: chordproeditor
         label: ChordPro Editor
