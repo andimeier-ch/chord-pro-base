@@ -5,7 +5,15 @@
 </template>
 
 <script>
-import { EditorView } from '@codemirror/view';
+import {
+    EditorView,
+    drawSelection,
+    highlightActiveLine,
+    highlightActiveLineGutter,
+    highlightSpecialChars,
+    keymap,
+    lineNumbers,
+} from '@codemirror/view';
 import { EditorState } from '@codemirror/state';
 import {
     autocompletion,
@@ -23,14 +31,6 @@ import {
 } from '@codemirror/language';
 import { lintKeymap } from '@codemirror/lint';
 import { highlightSelectionMatches, searchKeymap } from '@codemirror/search';
-import {
-    drawSelection,
-    highlightActiveLine,
-    highlightActiveLineGutter,
-    highlightSpecialChars,
-    keymap,
-    lineNumbers,
-} from '@codemirror/view';
 import { ChordPro } from '@chordbook/codemirror-lang-chordpro';
 
 export default {
