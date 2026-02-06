@@ -7,3 +7,8 @@ sections:
       chordProCode:
         type: chordproeditor
         label: ChordPro Editor
+        help: |
+          Name der ChordPro directive anfangen → Autovervollständigung
+          [ → Akkord-Vorschläge
+          Cmd+F / Ctrl+F → Suchen
+          Cmd+Z / Ctrl+Z → Rückgängig

@@ -1,5 +1,5 @@
 <template>
-    <k-field :label="label">
+    <k-field :label="label" :help="help">
         <div ref="editorContainer" class="chordpro-editor-wrapper"></div>
     </k-field>
 </template>
