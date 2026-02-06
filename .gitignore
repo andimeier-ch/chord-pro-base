@@ -22,6 +22,10 @@ Icon
 /.vscode
 /.idea
 
+# generated files
+# ---------------------------
+/vendor
+
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------

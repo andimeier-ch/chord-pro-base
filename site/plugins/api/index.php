@@ -1,6 +1,7 @@
 <?php
 
 use Kirby\Cms\App as Kirby;
+use Kirby\Exception\NotFoundException;
 
 Kirby::plugin('andimeier-ch/api', [
     'api' => [
@@ -8,13 +9,14 @@ Kirby::plugin('andimeier-ch/api', [
             'message' => function () {
                 return 'world';
             },
-            'song' => function ($id) {
-                $song = kirby()->page('songs/' . $id);
-    
+            'song' => function ($uuid) {
+                $song = page('page://' . $uuid);
+
                 if (!$song) {
-                    return [
-                        'error' => 'Song not found',
-                    ];
+                    throw new NotFoundException([
+                        'key' => 'song.notFound',
+                        'data' => ['uuid' => $uuid]
+                    ]);
                 }
 
                 return $song;
@@ -29,6 +31,13 @@ Kirby::plugin('andimeier-ch/api', [
                 'method' => 'GET',
                 'action' => function () {
                     return $this->songs();
+                },
+            ],
+            [
+                'pattern' => 'song/(:any)/chordpro',
+                'method' => 'GET',
+                'action' => function ($id) {
+                    return $this->song($id)->chordProRaw();
                 },
             ],
             [
