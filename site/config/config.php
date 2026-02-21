@@ -1,5 +1,10 @@
 <?php
 
 return [
-    'debug' => false,
+    'debug' => true,
+    'cache' => [
+        'pages' => [
+            'active' => false,
+        ],
+   ],
 ];
