@@ -1,6 +1,6 @@
 <h1><?= $page->title() ?></h1>
 
-<p>Template: <code>song.php</code></p>
+<p>Template: <code>songs.php</code></p>
 
 <ul>
   <?php foreach ($page->children() as $song): ?>
