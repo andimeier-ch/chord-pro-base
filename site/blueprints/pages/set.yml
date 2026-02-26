@@ -1,0 +1,14 @@
+title: Set
+
+sections:
+  fields:
+    type: fields
+    fields:
+      date:
+        type: date
+        label: Datum / Event
+      songs:
+        type: pages
+        label: Songs
+        multiple: true
+        query: site.find('songs').children

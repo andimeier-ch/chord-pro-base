@@ -35,6 +35,29 @@ Example output:
 
 Returns ChordPro code as plain text.
 
+### Sets
+
+```
+/sets.json
+```
+
+## Example output
+
+```json
+{
+    "sets": {
+        "data": {
+            "sets/gd-2-marz": {
+                "slug": "gd-2-marz",
+                "title": "GD 2. März",
+                "date": "2026-03-02",
+                "songsCount": 1
+            }
+        }
+    }
+}
+```
+
 ## API
 
 ### Get the list of all Songs
