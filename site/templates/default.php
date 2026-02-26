@@ -1,3 +1,3 @@
 <h1><?= $page->title() ?></h1>
 
-<p><?= $page->text() ?></p>
+<p>Template: <code>default.php</code></p>

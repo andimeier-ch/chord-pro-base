@@ -1,5 +1,40 @@
 # ChordPro Base
 
+## Content Representations
+
+### Songs
+
+```
+/songs.json
+```
+
+Example output:
+
+```json
+{
+    "songs": {
+        "data": {
+            "songs/let-it-be": {
+                "chordProURL": "https://chord-pro-base.ddev.site/songs/let-it-be.chordpro",
+                "chordProURI": "songs/let-it-be.chordpro",
+                "slug": "let-it-be",
+                "num": 1,
+                "title": "Let It Be",
+                "uuid": "n4srubpbrpwifp0e"
+            }
+        }
+    }
+}
+```
+
+### Song
+
+```
+/songs/{slug}.chordpro
+```
+
+Returns ChordPro code as plain text.
+
 ## API
 
 ### Get the list of all Songs
