@@ -1,0 +1,5 @@
+title: ChordPro Upload
+
+accept:
+  extension: chordpro, chopro
+  mime: text/plain

@@ -1,0 +1,43 @@
+Title: Fridefürscht / Heilig der Herr Zebaoth
+
+----
+
+Chordprocode:
+
+{title: Fridefürscht / Heilig der Herr Zebaoth}
+{artist: Jennifer Randolph, Mirjana Angelina | nach Eden Music}
+{key: G}
+{duration: 0}
+Intro:
+[|] [G]  [D/F#]  [Em]  [G/D] [|] [Gmai7/C] [|]
+[|] [G]  [D/F#]  [Em]  [G/D] [|] [Cmai7] [|]
+
+Vers:
+[G] Friedefürst, [D/F#] Wunderrat
+[F] Voll vo [Am7]Gnad, Gottes [Dsus4]Sohn, [D]
+[G] Herr vo Auem, [D/F#] starche Held,
+[F] Chönig und [Am7]Gott vo Ewig[C/D]keit!
+
+Chorus 1:
+I er[G]häbe [Gsus4]di, [G]Herr, i er[D]häbe di
+[Cmai7]D Schöpfig rüeft dir zue [G/B]
+"So [Am7]herrlich bisch nur [C/D]du".
+I er[G]häbe [Gsus4]di, [G]Herr, i er[D]häbe di.
+[Am7]Min [G/B]Jesus, [C]i er[C/D]häbe [G]di.
+
+Interlude:
+[|] [G] [|] [D/F#] [|] [Em] [|] [G/D] [|] [D/C] [|]
+
+Chorus 2:
+[G]Heilig, [Em]heilig, [Am7]heilig [G]
+[C]Isch der [Am7]Herr Zeba[D]oth
+[G]Heilig, [Em]heilig, [Am7]heilig [G]
+[C]Isch der [Am7]Herr Zeba[D]oth
+Und d [G]Schöpfig [G7]bezüügt [C]sini Grössi
+Und d [A]Schöpfig [A7]bezüügt [D]sini Grössi
+Und d [B]Schöpfig [B7]bezüügt [Em]sini Grössi
+[C]Heilig [Am7]isch [D]der [G]Herr!
+
+----
+
+Uuid: 2n3asv5xcsjdjeh6

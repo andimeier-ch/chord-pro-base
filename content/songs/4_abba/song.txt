@@ -1,0 +1,40 @@
+Title: Abba
+
+----
+
+Chordprocode:
+
+{title: Abba}
+{artist: Marc Steiner, Maria Fiechter, Nino Luca Küenzi}
+{key: E}
+{tempo: 82}
+{copyright: 2022 Eden Music}
+{footer: Nutzung ausschließlich im Rahmen der SongSelect®-Nutzungsbedingungen. Alle Rechte vorbehalten. www.ccli.com}
+{ccli: 7200509}
+{ccli_license: 1375908}
+Intro:
+[E] [|] [A2/E] [|] [E] [|] [A2/E]
+
+Vers:
+Bi [E/G#]dinä [A]Füess chum i zur [E]Rueh
+Dini  [E/G#]Gägä[A]wart isch für mi [E]gnuä
+u [E/G#]aus ver[A]geit, was rund um [B]mi isch [C#m]gsi
+I gseh iz [B/D#]nur no [E]di, höch erhabnä [B]Gott
+
+Chorus:
+[E]Abba du bisch [F#m]aues für mi
+[E/G#]Bisch mini [A]Zueflucht, bisch mi [C#m]Feus,
+wo für immer wird [B]sii
+[E]Abba du ver[F#m]lahsch mi nie
+[E/G#]Bisch mis [A]Deheimä, du bisch [C#m]tröi
+und blibsch immer bi [B]mir
+[E/G#]Bisch mis [A]Deheimä, du bisch [C#m]tröi
+und blibsch immer bi [B]mir
+
+Bridge:
+Es [A]git ke Ort, woni lieber [E]wär
+aus [A]hie bi dir, du bisch aus für [E]mi
+
+----
+
+Uuid: 0bspodsaosdcifpb

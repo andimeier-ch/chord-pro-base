@@ -15,7 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "AndiMeier\\ChordPro\\Models\\": "./models/"
+      "AndiMeier\\ChordPro\\Models\\": "./models/",
+      "AndiMeier\\ChordPro\\Services\\": "./services/"
     }
   },
   "config": {
