@@ -17,30 +17,30 @@ sections:
             multiple: false
             query: site.find('songs').children
           key:
-            type: select
+            type: songkeyselect
             label: Tonart
             options:
-              C:   C
-              C#:  "C# / Db"
-              D:   D
-              D#:  "D# / Eb"
-              E:   E
-              F:   F
-              F#:  "F# / Gb"
-              G:   G
-              G#:  "G# / Ab"
-              A:   A
-              A#:  "A# / Bb"
-              B:   B
-              Cm:  Cm
+              C: C
+              C#: "C# / Db"
+              D: D
+              D#: "D# / Eb"
+              E: E
+              F: F
+              F#: "F# / Gb"
+              G: G
+              G#: "G# / Ab"
+              A: A
+              A#: "A# / Bb"
+              B: B
+              Cm: Cm
               C#m: "C#m / Dbm"
-              Dm:  Dm
+              Dm: Dm
               D#m: "D#m / Ebm"
-              Em:  Em
-              Fm:  Fm
+              Em: Em
+              Fm: Fm
               F#m: "F#m / Gbm"
-              Gm:  Gm
+              Gm: Gm
               G#m: "G#m / Abm"
-              Am:  Am
+              Am: Am
               A#m: "A#m / Bbm"
-              Bm:  Bm
+              Bm: Bm

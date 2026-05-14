@@ -47,8 +47,17 @@ class ChordProSongPage extends Page
     }
 
     /**
+     * Original key from the ChordPro {key: …} directive, or null if not set.
+     */
+    public function chordProKey(): ?string
+    {
+        $this->ensureParsedSong();
+        return $this->parsedSong->getKey();
+    }
+
+    /**
      * Parsed ChordPro as HTML string
-     * 
+     *
      * @return string
      */
     public function chordProHTML(): string

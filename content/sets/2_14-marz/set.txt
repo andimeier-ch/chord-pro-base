@@ -8,8 +8,10 @@ Date: 2026-03-14
 
 Songs:
 
-- page://n4srubpbrpwifp0e
-- page://2slznqoqbbpyinju
+- 
+  song:
+    - page://n4srubpbrpwifp0e
+  key: C
 
 ----
 

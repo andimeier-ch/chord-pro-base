@@ -22,6 +22,11 @@ $songs = $page->songs()->toStructure()
   ->filter(fn ($s) => $s !== null)
   ->values();
 
+foreach ($songs as $i => &$song) {
+  $song['num'] = $i + 1;
+}
+unset($song);
+
 echo json_encode([
   'title' => $page->title()->value(),
   'date'  => $page->date()->value(),
