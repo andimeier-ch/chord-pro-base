@@ -7,7 +7,7 @@ $sets = $page->children()->listed()
     'slug'       => $set->slug(),
     'title'      => $set->title()->value(),
     'date'       => $set->date()->value(),
-    'songsCount' => $set->songs()->toPages()->count(),
+    'songsCount' => $set->songs()->toStructure()->count(),
   ]);
 
 echo json_encode(compact('sets'));
