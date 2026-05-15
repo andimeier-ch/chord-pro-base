@@ -204,6 +204,8 @@
 	"error.page.undefined": "Siden kunne ikke findes",
 	"error.page.update.permission": "Du har ikke tilladelse til at opdatere \"{slug}\"",
 
+	"error.role.notFound": "The role \"{name}\" cannot be found",
+
 	"error.section.files.max.plural": "Du kan ikk tilføje mere end {max} filer til \"{section}\" sektionen",
 	"error.section.files.max.singular": "Du kan ikke tilføje mere end een fil til \"{section}\" sektionen",
 	"error.section.files.min.plural": "Sektionen \"{section}\" kræver mindst {min} filer",
@@ -219,6 +221,7 @@
 
 	"error.site.changeTitle.empty": "Titlen kan ikke være tom",
 	"error.site.changeTitle.permission": "Du har ikke tilladelse til at ændre titlen på sitet",
+	"error.site.notAccessible": "The site is not accessible",
 	"error.site.update.permission": "Du har ikke tilladelse til at opdatere sitet",
 
 	"error.structure.validation": "There's an error on the \"{field}\" field in row {index}",
@@ -297,6 +300,10 @@
 	"error.validation.time.between": "Indtast venligst et tidspunkt imellem {min} og {max}",
 	"error.validation.uuid": "Please enter a valid UUID",
 	"error.validation.url": "Indtast venligst en gyldig URL",
+
+	"error.version.discard.permission": "You are not allowed to discard this version",
+	"error.version.publish.permission": "You are not allowed to publish this version",
+	"error.version.save.permission": "You are not allowed to change this version",
 
 	"expand": "Fold ud",
 	"expand.all": "Expand all",
@@ -631,7 +638,9 @@
 	"plugin": "Plugin",
 	"plugins": "Plugins",
 	"prev": "Forrige",
+
 	"preview": "Forhåndsvisning",
+	"preview.browser.scroll": "Sync scroll",
 
 	"publish": "Publish",
 	"published": "Udgivede",
@@ -782,6 +791,7 @@
 	"user.create": "Tilføj en ny bruger",
 	"user.delete": "Slet denne bruger",
 	"user.delete.confirm": "\u00d8nsker du virkelig at slette denne bruger?",
+	"user.setPassword": "Set password",
 
 	"users": "Brugere",
 

@@ -204,6 +204,8 @@
 	"error.page.undefined": "\u627e\u4e0d\u5230\u9801\u9762",
 	"error.page.update.permission": "你沒有更新「{slug}」的權限",
 
+	"error.role.notFound": "The role \"{name}\" cannot be found",
+
 	"error.section.files.max.plural": "「{section}」區段中最多只能加入 {max} 個檔案",
 	"error.section.files.max.singular": "「{section}」區段中最多只能加入 1 個檔案",
 	"error.section.files.min.plural": "「{section}」區段中至少需要 {min} 個檔案",
@@ -219,6 +221,7 @@
 
 	"error.site.changeTitle.empty": "網站標題不得為空",
 	"error.site.changeTitle.permission": "你沒有變更網站標題的權限",
+	"error.site.notAccessible": "The site is not accessible",
 	"error.site.update.permission": "你沒有變更網站設定的權限",
 
 	"error.structure.validation": "第 {index} 列的「{field}」欄位發生錯誤",
@@ -297,6 +300,10 @@
 	"error.validation.time.between": "時間必須介於 {min} 到 {max} 之間",
 	"error.validation.uuid": "請輸入有效的 UUID",
 	"error.validation.url": "請輸入有效的網址",
+
+	"error.version.discard.permission": "You are not allowed to discard this version",
+	"error.version.publish.permission": "You are not allowed to publish this version",
+	"error.version.save.permission": "You are not allowed to change this version",
 
 	"expand": "展開",
 	"expand.all": "Expand all",
@@ -631,7 +638,9 @@
 	"plugin": "外掛",
 	"plugins": "外掛列表",
 	"prev": "上一步",
+
 	"preview": "預覽",
+	"preview.browser.scroll": "Sync scroll",
 
 	"publish": "發佈",
 	"published": "已發佈",
@@ -782,6 +791,7 @@
 	"user.create": "新增使用者",
 	"user.delete": "刪除使用者",
 	"user.delete.confirm": "你確定要刪除「{email}」嗎？",
+	"user.setPassword": "Set password",
 
 	"users": "使用者",
 

@@ -204,6 +204,8 @@
 	"error.page.undefined": "Sidan kan inte hittas",
 	"error.page.update.permission": "Du har inte behörighet att uppdatera \"{slug}\"",
 
+	"error.role.notFound": "The role \"{name}\" cannot be found",
+
 	"error.section.files.max.plural": "Du får inte lägga till mer än {max} filer till sektionen \"{section}\"",
 	"error.section.files.max.singular": "Du får inte lägga till mer än en fil i sektionen \"{section}\"",
 	"error.section.files.min.plural": "Sektionen \"{section}\" kräver minst {min} filer",
@@ -219,6 +221,7 @@
 
 	"error.site.changeTitle.empty": "Titeln får inte vara tom",
 	"error.site.changeTitle.permission": "Du har inte behörighet att ändra titeln på webbplatsen",
+	"error.site.notAccessible": "The site is not accessible",
 	"error.site.update.permission": "Du har inte behörighet att uppdatera webbplatsen",
 
 	"error.structure.validation": "Det finns ett fel i fältet \"{field}\" i rad {index}",
@@ -297,6 +300,10 @@
 	"error.validation.time.between": "Ange en tid mellan {min} och {max}",
 	"error.validation.uuid": "Ange ett giltigt UUID",
 	"error.validation.url": "Ange en giltig URL",
+
+	"error.version.discard.permission": "You are not allowed to discard this version",
+	"error.version.publish.permission": "You are not allowed to publish this version",
+	"error.version.save.permission": "You are not allowed to change this version",
 
 	"expand": "Expandera",
 	"expand.all": "Expand all",
@@ -631,7 +638,9 @@
 	"plugin": "Tillägg",
 	"plugins": "Tillägg",
 	"prev": "Föregående",
+
 	"preview": "Förhandsgranska",
+	"preview.browser.scroll": "Sync scroll",
 
 	"publish": "Publicera",
 	"published": "Publicerade",
@@ -782,6 +791,7 @@
 	"user.create": "Lägg till en ny användare",
 	"user.delete": "Radera denna användare",
 	"user.delete.confirm": "Vill du verkligen radera <br><strong>{email}</strong>?",
+	"user.setPassword": "Set password",
 
 	"users": "Användare",
 

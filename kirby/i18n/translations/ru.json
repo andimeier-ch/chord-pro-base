@@ -204,6 +204,8 @@
 	"error.page.undefined": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430",
 	"error.page.update.permission": "У вас нет права обновить \"{slug}\"",
 
+	"error.role.notFound": "The role \"{name}\" cannot be found",
+
 	"error.section.files.max.plural": "Нельзя добавить больше чем {max} файлов в секции \"{section}\"",
 	"error.section.files.max.singular": "Можно добавить не больше 1 файла в секции \"{section}\"",
 	"error.section.files.min.plural": "Секция \"{section}\" требует хотя бы {min} файлов",
@@ -219,6 +221,7 @@
 
 	"error.site.changeTitle.empty": "Название не может быть пустым",
 	"error.site.changeTitle.permission": "У вас нет права изменять название сайта",
+	"error.site.notAccessible": "The site is not accessible",
 	"error.site.update.permission": "У вас нет права обновить сайт",
 
 	"error.structure.validation": "Ошибка в поле \"{field}\" в строке {index}",
@@ -297,6 +300,10 @@
 	"error.validation.time.between": "Пожалуйста, укажите время между {min} и {max}",
 	"error.validation.uuid": "Пожалуйста, введите правильный UUID",
 	"error.validation.url": "Пожалуйста, введите правильный URL",
+
+	"error.version.discard.permission": "You are not allowed to discard this version",
+	"error.version.publish.permission": "You are not allowed to publish this version",
+	"error.version.save.permission": "You are not allowed to change this version",
 
 	"expand": "Развернуть",
 	"expand.all": "Expand all",
@@ -631,7 +638,9 @@
 	"plugin": "Расширение",
 	"plugins": "Плагины",
 	"prev": "Предыдущий",
+
 	"preview": "Предпросмотр",
+	"preview.browser.scroll": "Sync scroll",
 
 	"publish": "Опубликовать",
 	"published": "Опубликовано",
@@ -782,6 +791,7 @@
 	"user.create": "Добавить нового пользователя",
 	"user.delete": "Удалить этого пользователя",
 	"user.delete.confirm": "Вы действительно хотите аккаунт <br><strong>{email}</strong>?",
+	"user.setPassword": "Set password",
 
 	"users": "Пользователи",
 

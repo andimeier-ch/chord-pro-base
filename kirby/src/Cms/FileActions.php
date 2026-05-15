@@ -90,6 +90,8 @@ trait FileActions
 			$newFile->parent()->files()->remove($oldFile->id());
 			$newFile->parent()->files()->set($newFile->id(), $newFile);
 
+			$newFile->uuid()?->populate();
+
 			return $newFile;
 		});
 	}
@@ -189,6 +191,7 @@ trait FileActions
 		// overwrite with new UUID (remove old, add new)
 		if (Uuids::enabled() === true) {
 			$copy = $copy->save(['uuid' => Uuid::generate()]);
+			$copy->uuid()->populate();
 		}
 
 		return $copy;
@@ -292,6 +295,8 @@ trait FileActions
 			// store the content if necessary
 			$file->changeStorage($storage);
 
+			$file->uuid()?->populate();
+
 			// return a fresh clone
 			return $file->clone();
 		});
@@ -351,6 +356,11 @@ trait FileActions
 
 	protected static function normalizeProps(array $props): array
 	{
+		// Prevent injecting blueprint as this always must be derived from
+		// the template/model name and blueprint object in the app,
+		// never directly be supplied by the caller
+		unset($props['blueprint']);
+
 		if (isset($props['source'], $props['parent']) === false) {
 			throw new InvalidArgumentException(
 				message: 'Please provide the "source" and "parent" props for the File'

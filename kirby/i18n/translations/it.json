@@ -204,6 +204,8 @@
 	"error.page.undefined": "La pagina non \u00e8 stata trovata",
 	"error.page.update.permission": "Non ti è permesso modificare \"{slug}\"",
 
+	"error.role.notFound": "The role \"{name}\" cannot be found",
+
 	"error.section.files.max.plural": "Non puoi aggiungere più di {max} file alla sezione \"{section}\"",
 	"error.section.files.max.singular": "Non puoi aggiungere più di un file alla sezione \"{section}\"",
 	"error.section.files.min.plural": "La sezione \"{section}\" richiede almeno {min} file",
@@ -219,6 +221,7 @@
 
 	"error.site.changeTitle.empty": "Il titolo non può essere vuoto",
 	"error.site.changeTitle.permission": "Non ti è permesso modificare il titolo del sito",
+	"error.site.notAccessible": "The site is not accessible",
 	"error.site.update.permission": "Non ti è permesso modificare i contenuti globali del sito",
 
 	"error.structure.validation": "C'è un errore nel campo \"{field}\" nella riga {index}",
@@ -297,6 +300,10 @@
 	"error.validation.time.between": "Inserisci un orario tra le {min} e le {max}",
 	"error.validation.uuid": "Please enter a valid UUID",
 	"error.validation.url": "Inserisci un URL valido",
+
+	"error.version.discard.permission": "You are not allowed to discard this version",
+	"error.version.publish.permission": "You are not allowed to publish this version",
+	"error.version.save.permission": "You are not allowed to change this version",
 
 	"expand": "Espandi",
 	"expand.all": "Expand all",
@@ -631,7 +638,9 @@
 	"plugin": "Plugin",
 	"plugins": "Plugins",
 	"prev": "Precedente",
+
 	"preview": "Anteprima",
+	"preview.browser.scroll": "Sync scroll",
 
 	"publish": "Pubblica",
 	"published": "Pubblicato",
@@ -782,6 +791,7 @@
 	"user.create": "Aggiungi nuovo utente",
 	"user.delete": "Elimina questo utente",
 	"user.delete.confirm": "Sei sicuro di voler eliminare l'utente <br><strong>{email}</strong>?",
+	"user.setPassword": "Set password",
 
 	"users": "Utenti",
 

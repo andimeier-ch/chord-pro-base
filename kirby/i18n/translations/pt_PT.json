@@ -56,7 +56,7 @@
 	"dimensions": "Dimensões",
 	"disable": "Desativar",
 	"disabled": "Desativado",
-	"discard": "Descartar",
+	"discard": "Reverter",
 
 	"drawer.fields.empty": "Esta janela não tem campos",
 
@@ -204,6 +204,8 @@
 	"error.page.undefined": "Não foi possível encontrar a página",
 	"error.page.update.permission": "Não tem permissões para atualizar \"{slug}\"",
 
+	"error.role.notFound": "The role \"{name}\" cannot be found",
+
 	"error.section.files.max.plural": "Não pode adicionar mais do que {max} ficheiros à secção \"{section}\"",
 	"error.section.files.max.singular": "Não pode adicionar mais do que um ficheiro à secção \"{section}\"",
 	"error.section.files.min.plural": "A secção \"{section}\" requer no mínimo {min} ficheiros",
@@ -219,6 +221,7 @@
 
 	"error.site.changeTitle.empty": "O título não pode ficar em branco",
 	"error.site.changeTitle.permission": "Não tem permissões para alterar o título do site",
+	"error.site.notAccessible": "The site is not accessible",
 	"error.site.update.permission": "Não tem permissões para atualizar o site",
 
 	"error.structure.validation": "Existe um erro no campo \"{field}\" na linha {index}",
@@ -297,6 +300,10 @@
 	"error.validation.time.between": "Por favor, insira uma hora entre {min} e {max}",
 	"error.validation.uuid": "Por favor, insira um UUID válido",
 	"error.validation.url": "Por favor, insira um URL válido",
+
+	"error.version.discard.permission": "Não tem permissão para reverter esta versão",
+	"error.version.publish.permission": "Não tem permissão para publicar esta versão",
+	"error.version.save.permission": "Não tem permissão para alterar esta versão",
 
 	"expand": "Expandir",
 	"expand.all": "Expandir todos",
@@ -631,7 +638,9 @@
 	"plugin": "Plugin",
 	"plugins": "Plugins",
 	"prev": "Anterior",
+
 	"preview": "Pré-visualizar",
+	"preview.browser.scroll": "Sincronizar scroll",
 
 	"publish": "Publicar",
 	"published": "Publicadas",
@@ -782,6 +791,7 @@
 	"user.create": "Adicionar um novo utilizador",
 	"user.delete": "Eliminar este utilizador",
 	"user.delete.confirm": "Tem a certeza que pretende eliminar <br><strong>{email}</strong>?",
+	"user.setPassword": "Definir palavra-passe",
 
 	"users": "Utilizadores",
 
