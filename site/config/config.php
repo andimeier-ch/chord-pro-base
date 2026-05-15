@@ -2,6 +2,9 @@
 
 return [
     'panel' => [
+        'vue' => [
+            'compiler' => false,
+        ],
         'favicon' => [
             [
                 'rel'  => 'icon',

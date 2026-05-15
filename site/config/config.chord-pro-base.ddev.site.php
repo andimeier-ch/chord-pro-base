@@ -7,4 +7,9 @@ return [
             'active' => false,
         ],
    ],
+   'panel' => [
+        'vue' => [
+            'compiler' => false,
+        ],
+   ],
 ];
