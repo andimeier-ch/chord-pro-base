@@ -8,6 +8,9 @@ columns:
         type: pages
         template: song
         label: Songs
+        limit: 100
+        search: true
+        sortBy: title
 
   upload:
     width: 1/3
